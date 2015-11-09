@@ -1,0 +1,3 @@
+
+var ApiGen = ApiGen || {};
+ApiGen.elements = [["c","Phlopsi\\AccessControl\\AccessControl"],["c","Phlopsi\\AccessControl\\Exception\\Exception"],["c","Phlopsi\\AccessControl\\Exception\\LengthException"],["c","Phlopsi\\AccessControl\\Exception\\RuntimeException"],["c","Phlopsi\\AccessControl\\Exception\\TranslateExceptionsTrait"],["c","Phlopsi\\AccessControl\\Role"],["c","Phlopsi\\AccessControl\\User"],["c","Phlopsi\\ExceptionTranslator\\ExceptionTranslator"],["c","Phlopsi\\ExceptionTranslator\\Reflection\\ExceptionReflection"],["c","Phlopsi\\ExceptionTranslator\\Reflection\\ExternalExceptionReflection"]];

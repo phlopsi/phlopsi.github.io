@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 
-	<title>Interface Phlopsi\AccessControl\Exception\Exception | AccessControl</title>
+	<title>Interface Phlopsi\AccessControl\Connection\ConnectionAware | AccessControl</title>
 
 	<link rel="stylesheet" href="resources/style.css?c2f33731c1948fbed7c333554678bfa68d4817da">
 
@@ -30,12 +30,12 @@
 					</a>
 
 						<ul>
-				<li>
+				<li class="active">
 					<a href="namespace-Phlopsi.AccessControl.Connection.html">
 						Connection					</a>
 
 						</li>
-				<li class="active">
+				<li>
 					<a href="namespace-Phlopsi.AccessControl.Exception.html">
 						Exception					</a>
 
@@ -63,19 +63,14 @@
 
 			<h3>Interfaces</h3>
 			<ul>
-				<li class="active"><a href="class-Phlopsi.AccessControl.Exception.Exception.html">Exception</a></li>
+				<li class="active"><a href="class-Phlopsi.AccessControl.Connection.ConnectionAware.html">ConnectionAware</a></li>
 			</ul>
 
 			<h3>Traits</h3>
 			<ul>
-				<li><a href="class-Phlopsi.AccessControl.Exception.TranslateExceptionsTrait.html">TranslateExceptionsTrait</a></li>
+				<li><a href="class-Phlopsi.AccessControl.Connection.ConnectionAwareTrait.html">ConnectionAwareTrait</a></li>
 			</ul>
 
-			<h3>Exceptions</h3>
-			<ul>
-				<li><a href="class-Phlopsi.AccessControl.Exception.LengthException.html">LengthException</a></li>
-				<li><a href="class-Phlopsi.AccessControl.Exception.RuntimeException.html">RuntimeException</a></li>
-			</ul>
 
 
 		</div>
@@ -98,7 +93,7 @@
 				<a href="index.html" title="Overview"><span>Overview</span></a>
 			</li>
 			<li>
-				<a href="namespace-Phlopsi.AccessControl.Exception.html" title="Summary of Phlopsi\AccessControl\Exception"><span>Namespace</span></a>
+				<a href="namespace-Phlopsi.AccessControl.Connection.html" title="Summary of Phlopsi\AccessControl\Connection"><span>Namespace</span></a>
 			</li>
 			<li class="active">
 <span>Class</span>			</li>
@@ -110,7 +105,7 @@
 	</div>
 
 <div id="content" class="class">
-	<h1>Interface Exception</h1>
+	<h1>Interface ConnectionAware</h1>
 
 
 
@@ -120,8 +115,9 @@
 
 	<div>
 		<h4>Direct known implementers</h4>
-			<a href="class-Phlopsi.AccessControl.Exception.LengthException.html">Phlopsi\AccessControl\Exception\LengthException</a>, 
-			<a href="class-Phlopsi.AccessControl.Exception.RuntimeException.html">Phlopsi\AccessControl\Exception\RuntimeException</a>
+			<a href="class-Phlopsi.AccessControl.AccessControl.html">Phlopsi\AccessControl\AccessControl</a>, 
+			<a href="class-Phlopsi.AccessControl.Role.html">Phlopsi\AccessControl\Role</a>, 
+			<a href="class-Phlopsi.AccessControl.User.html">Phlopsi\AccessControl\User</a>
 	</div>
 
 
@@ -130,14 +126,47 @@
 	<div class="info">
 		
 		
-		<b>Namespace:</b> <a href="namespace-Phlopsi.html">Phlopsi</a>\<a href="namespace-Phlopsi.AccessControl.html">AccessControl</a>\<a href="namespace-Phlopsi.AccessControl.Exception.html">Exception</a><br>
+		<b>Namespace:</b> <a href="namespace-Phlopsi.html">Phlopsi</a>\<a href="namespace-Phlopsi.AccessControl.html">AccessControl</a>\<a href="namespace-Phlopsi.AccessControl.Connection.html">Connection</a><br>
 		
 
-			<b>Located at</b> Phlopsi/AccessControl/Exception/Exception.php		<br>
+			<b>Located at</b> Phlopsi/AccessControl/Connection/ConnectionAware.php		<br>
 	</div>
 
 
 
+	<table class="summary methods" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="setConnection" id="_setConnection">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setConnection">#</a>
+		<code>setConnection( <span>Propel\Runtime\Connection\ConnectionInterface <var>$connection</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
 
 
 

@@ -31,6 +31,11 @@
 
 						<ul>
 				<li>
+					<a href="namespace-Phlopsi.AccessControl.Connection.html">
+						Connection					</a>
+
+						</li>
+				<li>
 					<a href="namespace-Phlopsi.AccessControl.Exception.html">
 						Exception					</a>
 
@@ -105,8 +110,12 @@
 	<dl class="tree">
 		<dd style="padding-left:0px">
 <b><span>Phlopsi\AccessControl\Role</span></b>			
+			 implements 
+				<a href="class-Phlopsi.AccessControl.Connection.ConnectionAware.html"><span>Phlopsi\AccessControl\Connection\ConnectionAware</span></a>
 			
 			 uses 
+					<a href="class-Phlopsi.AccessControl.Connection.ConnectionAwareTrait.html"><span>Phlopsi\AccessControl\Connection\ConnectionAwareTrait</span></a>, 
+			
 					<a href="class-Phlopsi.AccessControl.Exception.TranslateExceptionsTrait.html"><span>Phlopsi\AccessControl\Exception\TranslateExceptionsTrait</span></a>
 			
 		</dd>
@@ -144,7 +153,7 @@
 
 		<td class="name"><div>
 		<a class="anchor" href="#___construct">#</a>
-		<code>__construct( <span>Phlopsi\AccessControl\Propel\Role <var>$role</var></span>, <span>Propel\Runtime\Connection\ConnectionInterface <var>$connection</var> = <span class="php-keyword1">null</span></span> )</code>
+		<code>__construct( <span>Phlopsi\AccessControl\Propel\Role <var>$role</var></span> )</code>
 
 		<div class="description short">
 			
@@ -157,8 +166,6 @@
 				<h4>Parameters</h4>
 				<div class="list"><dl>
 					<dt><var>$role</var></dt>
-					<dd></dd>
-					<dt><var>$connection</var></dt>
 					<dd></dd>
 				</dl></div>
 
@@ -291,7 +298,23 @@
 	</tr>
 	</table>
 
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-Phlopsi.AccessControl.Connection.ConnectionAware.html#methods">Phlopsi\AccessControl\Connection\ConnectionAware</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Phlopsi.AccessControl.Connection.ConnectionAware.html#_setConnection">setConnection()</a>
+		</code></td>
+	</tr>
+	</table>
 
+	<table class="summary used">
+	<caption>Methods used from <a href="class-Phlopsi.AccessControl.Connection.ConnectionAwareTrait.html#methods">Phlopsi\AccessControl\Connection\ConnectionAwareTrait</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Phlopsi.AccessControl.Connection.ConnectionAwareTrait.html#_setConnection">setConnection()</a>
+		</code></td>
+	</tr>
+	</table>
 
 
 
